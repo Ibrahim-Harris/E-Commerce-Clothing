@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Next </title>
+    <link href = “style.css” rel = “stylesheet”/>  
+    <title id = next> Next </title>
 </head>
 
-<body>
+<body id = "content">
 
-<header> 
-    
-<img src = "NextLogo.png" alt = "Image Of Company Logo"/>
+<header id = "top"> 
 
- <nav> 
+<img src = "NextLogo.png" alt = "Image Of Company Logo" id = logo/> <!-- Not Sure If I Can Include This Id Within The Img Tag --> 
+
+ <nav id = "nav"> 
 <ul> 
-<li> <a href="#">Home</li>
-<li> <a href="#">About</li>       <!-- Seperate Page --> 
-<li> <a href="#">Products</li>    <!-- Seperate Page --> 
-<li> <a href="#">Delivery</li>    <!-- Seperate Page -->   
-<li> <a href="#">Contact</li>     <!-- Info To Add In Footer -->             
+<li> <a href="#home">Home</li>
+<li> <a href="#about.html">About</li>       <!-- Seperate Page --> 
+<li> <a href="#products.html">Products</li>    <!-- Seperate Page --> 
+<li> <a href="#delivery.html">Delivery</li>    <!-- Seperate Page -->   
+<li> <a href="#bottom">Contact</li>     <!-- Info To Add In Footer -->             
 </ul>
  </nav>
 
@@ -26,12 +27,12 @@
 
 
 
-<main> 
+<main id = images> 
 
     
     <img src = "mens shoes.jpg" alt = "Image Of Posh Shoes"/>
 
-    <p> Mens Shoes</p>    <!-- The p tags need to be at the bottom side of the image and each image set side by side --> 
+    <p id = mens > Mens Shoes</p>    <!-- The p tags need to be at the bottom side of the image and each image set side by side --> 
 
     <img src = "woman handbag.png" alt = "Image Of Woman Hand Bag"/>
     
@@ -39,14 +40,14 @@
 
     <img src = "night wear.png" alt = "Image Of Night Clothing"/>
 
-    <P> night wear </P>    <!-- The p tags need to be at the bottom side of the image and each image set side by side --> 
+    <P id = night wear> night wear </P>    <!-- The p tags need to be at the bottom side of the image and each image set side by side --> 
     
 
 </main>
 
 </body>
 
-<footer> 
+<footer id = "bottom"> 
 
 <h3 id="contact"> Contacts </h3>
 
@@ -55,5 +56,7 @@
 <p> <a href = "ibrahim@example.com"> Email Us </a> </p>
 
 </footer>
+
+<a href = "#top"> Back To Top </a>
 
 </html>
