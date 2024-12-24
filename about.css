@@ -1,3 +1,40 @@
-.heading {color:red}; 
+.heading {
+font-family:arial:sans-serif;  
+font-size:32px
+text:center; 
+color:;
+background-color:;
+border: white solid 3px;
+height: 
+border: green 5px 
+padding: 
+margin: 
+}; 
 
-p{}
+p{
+    
+font-family:arial:sans-serif;  
+font-size:32px
+text:center;
+width:25vh; 
+height:25vh 
+color:;
+background-color:;
+border: white solid 3px;
+height: 
+border: green 5px 
+padding: 15px 10px 15px 10px;
+margin:
+display:none;
+display:inline; 
+display:inline-block;
+position:relative;
+left:68px; 
+position:absolute; 
+top:20px; 
+right:10px  
+
+
+}
+
+selector {box-sizing:border-box;} Matches box sizing

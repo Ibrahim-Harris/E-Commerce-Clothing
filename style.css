@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logoImage {
+    width: 150px;
+    height: 150px;
+}
+
+.navLinks {
+    display: flex;
+}
+
+.navLinkItem {
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.shoes {
+width:150px; 
+height:150px; 
+}

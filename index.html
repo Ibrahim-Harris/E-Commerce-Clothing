@@ -2,71 +2,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href = “style.css” rel = “stylesheet”/>  
-    <title id = next> Next </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href = 'style.css' rel = "stylesheet"/>  
+	<title id = next> Next </title>
 </head>
 
-<section>
-
 <body id = "content">
-
-<header id = "top"> 
-
-<div> <img src = "NextLogo.png" alt = "Image Of Company Logo" id = logo/> </div> <!-- Not Sure If I Can Include This Id Within The Img Tag --> 
-
-<section>
- <nav id = "nav"> 
-<ul> 
-<li> <a href="#home">Home</li>
-<li> <a href="#about.html">About</li>       <!-- Seperate Page --> 
-<li> <a href="#products.html">Products</li>    <!-- Seperate Page --> 
-<li> <a href="#delivery.html">Delivery</li>    <!-- Seperate Page -->   
-<li> <a href="#bottom">Contact</li>     <!-- Info To Add In Footer -->             
-</ul>
- </nav>
-</section>
-
-</header>
-
+	<header id="top" class="header"> 
+		<img src="images/logo.png" alt="Next Company Logo" id="logoImage"/>
+		<div class="navBar">
+			<nav id="nav"> 
+				<ul class="navLinks"> 
+					<li class="navLinkItem"> <a href="#home">Home</li>
+					<li class="navLinkItem"> <a href="#about.html">About</li>       <!-- Seperate Page --> 
+					<li class="navLinkItem"> <a href="#products.html">Products</li>    <!-- Seperate Page --> 
+					<li class="navLinkItem"> <a href="#delivery.html">Delivery</li>    <!-- Seperate Page -->   
+					<li class="navLinkItem"> <a href="#bottom">Contact</li>     <!-- Info To Add In Footer -->             
+				</ul>
+			</nav>
+		</div>
+	</header>
 
 <section> 
 <main id = images> 
-
-    
-    <img src = "mens shoes.jpg" alt = "Image Of Posh Shoes"/>
-
-    <p id = mens > Mens Shoes</p>    <!-- The p tags need to be at the bottom side of the image and each image set side by side --> 
-
+    <img src="images/menshoes.jpg" alt="Image Of Posh Shoes" class="shoes"/>
+    <p id = mens > Mens Shoes</p>    
+		<!-- The p tags need to be at the bottom side of the image and each image set side by side --> 
     <img src = "woman handbag.png" alt = "Image Of Woman Hand Bag"/>
-    
-    <p> Womans bags</p>    <!-- The p tags need to be at the bottom side of the image and each image set side by side --> 
-
+    <p> Womans bags</p>    
+		<!-- The p tags need to be at the bottom side of the image and each image set side by side --> 
     <img src = "night wear.png" alt = "Image Of Night Clothing"/>
-
     <P id = night wear> night wear </P>    <!-- The p tags need to be at the bottom side of the image and each image set side by side --> 
 </section>
-
 </main>
-
 </body>
-
-</section>
-
 <footer id = "bottom"> 
-
 <section> 
 <h3 id="contact"> Contacts </h3>
-
-<p> <a href = #> Find Out About Delivery </a> </p> <!-- Link to delivery page --> 
-
-<p> <a href = "ibrahim@example.com"> Email Us </a> </p>
-
+<p> 
+	<a href = #> Find Out About Delivery </a> 
+</p> 
+<!-- Link to delivery page --> 
+<p>
+	 <a href = "ibrahim@example.com"> Email Us </a> 
+	</p>
 </section>
-
 </footer>
-
 <a href = "#top"> Back To Top </a>
-
 </html>
