@@ -18,7 +18,11 @@
     list-style-type: none;
 }
 
-.shoes {
+.servicesSectionsImageHomePage {
 width:150px; 
 height:150px; 
+}
+
+.servicesSectionsHomePage {
+    display: flex;
 }
