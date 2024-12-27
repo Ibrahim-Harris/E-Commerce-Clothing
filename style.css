@@ -2,15 +2,21 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 25px ;  
+    border:; 
+    
 }
 
 #logoImage {
-    width: 150px;
+    width: 750px;
     height: 150px;
+
 }
 
 .navLinks {
     display: flex;
+    padding:25px
+
 }
 
 .navLinkItem {
@@ -18,11 +24,33 @@
     list-style-type: none;
 }
 
-.servicesSectionsImageHomePage {
-width:150px; 
-height:150px; 
+.servicesSectionsHomePage {
+    width:150px;
+    height:150px; 
+    display:inline-block;
+    align-items: center;
+    text-align: center;
+ 
 }
 
-.servicesSectionsHomePage {
-    display: flex;
+.servicesSectionsImageHomePage {  
+    width:150px;
+    height:150px; 
+    display:inline-block;
+    align-items: center;
+    text-align: center;
+    margin-left: 450px;
+ 
 }
+
+.tag{
+margin-left:500px;
+}
+
+.contact{
+align-items:center;
+text-align: center;
+
+}
+
+#button{}
