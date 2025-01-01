@@ -1,40 +1,38 @@
-.heading {
-font-family:arial:sans-serif;  
-font-size:32px
-text:center; 
-color:;
-background-color:;
-border: white solid 3px;
-height: 
-border: green 5px 
-padding: 
-margin: 
-}; 
-
-p{
+#mainheading{
     
+color:blue;
+text-align: center;
 font-family:arial:sans-serif;  
-font-size:32px
-text:center;
-width:25vh; 
-height:25vh 
-color:;
-background-color:;
-border: white solid 3px;
-height: 
-border: green 5px 
-padding: 15px 10px 15px 10px;
-margin:
-display:none;
-display:inline; 
-display:inline-block;
-position:relative;
-left:68px; 
-position:absolute; 
-top:20px; 
-right:10px  
+font-size:35px;
+padding:25px;
+background-color:yellow;}
 
+
+.heading{                     
+color:orange;
+font-family:arial; 
+font size: 25px; 
+background-color:lightblue;  
+padding-left:100px;
+padding-top:35px;
+padding-bottom:35px;}
+
+.sub{
+    Color:purple;
+    font-family:arial:sans-serif;
+    font-size:20px;
+    border:dotted; 
+}
+
+.text{
+color:red;
+font-family:arial:sans-serif;
+font-size:11px;
+}
+
+.segment{
+color:darkred;
+padding: 20px
 
 }
 
-selector {box-sizing:border-box;} Matches box sizing
